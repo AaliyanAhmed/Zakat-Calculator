@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Zakat Calculator</title>
+</head>
+<body>
+    <h1>As-salamu alaykum(ٱلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّٰهِ وَبَرَكَاتُهُ)</h1>
+    <p>Welcome to this zakat Calculator. The purpose of this Calculator is to help you to 
+        calculate your zakat based on your wealth like money, Gold, Silver, and Bank Balance. 
+        I would love to inform you that this is a prototype design. which I made based on pieces 
+        of information from the internet. Let me know if you have any valuable feedback for me.</p>
+        <div class="mainsection">
+            <h2>Select Your Currency:</h2>
+            <div class="select">
+            <select id="currency">
+                <option value="Taka">Taka</option>
+                <option value="Rupee">Rupee</option>
+                <option value="Dollar">Dollar</option>
+                <option value="Riyal">Riyal</option>
+            </select>
+            </div>
+            <br>
+            <table>
+            <tr>
+            <td><label>Money(At home):</label></td>
+            <td><input id="money" type="text" placeholder="Money" value="0"></td>
+            </tr>
+            <tr>
+            <td><label>Bank Balance:</label></td>
+            <td><input id="balance" type="text" placeholder="Bank Balance" value="0"></td>
+            </tr>
+            <tr>
+            <td><label>Gold(More then 7.5 Tola):</label></td>
+            <td><input id="gold" type="text" placeholder="Gold" value="0"></td>
+            </tr>
+            <tr>
+            <td><label>Silver(More then 52.5 Tola):</label></td>
+            <td><input id="silver"type="text" placeholder="Silver" value="0"></td>
+            </tr>
+            <tr>
+            <td><label>Real Estate Assets:</label></td>
+            <td><input id="assets" type="text" placeholder="Real Estate Assets" value="0"></td>
+            </tr>
+        </table>
+            <br>
+            <button id="subit">Enter</button>
+            <h1 id="result"></h1>
+        </div>
+
+        <h1 id="result"></h1>
+    <!-- js function adding -->
+    <script src="aap.js"></script>
+</body>
+</html>
